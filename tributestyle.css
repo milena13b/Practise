@@ -1,0 +1,43 @@
+#main{
+    background-color: #211F1F;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom:90px;
+  }
+  #title{
+    color: white;
+  }
+  #image{
+    max-width: 60%;
+    height: auto;
+  }
+  #img-caption{
+    color:transparent;
+  }
+  a{
+    font-family: "Georgia";
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    opacity: 30%;
+  }
+  p{
+      color: silver;
+  }
+  #tribute-info{
+    color: silver;
+    font-family: "Georgia";
+    font-size: 20px;
+    text-align: justify;
+  }
+  footer{
+    color: silver;
+    font-family: "georgia";
+    padding-bottom: 85px;
+    padding-top: 60px;
+  }
