@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    padding: 10px;
+    background-color: rgb(236, 233, 233);
+}
+
+.header{
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+}
+.link{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+}
+.link1{
+    text-decoration: none;
+    float: right;
+    padding: 14px 16px;
+    color: white;
+}
+.navbar{
+    background-color: rgb(59, 58, 58);
+    overflow: hidden;
+}
+
+.box{
+    padding: 20px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    background-color: silver;
+    cursor: pointer;
+}
+.fakeimg{
+    background-color: grey;
+    height: 200px;
+    width: 100%;
+    padding: 30px 30px;
+    text-align: left;
+}
+.aboutme{
+    background-color: white;
+    padding: 20px;
+
+}
+.popular{
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+}
+.follow{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+}
+.col1{
+    margin-top: 20px;
+    width: 75%;
+    float: left;
+}
+.col2{
+    margin-top: 20px;
+    width: 25%;
+    float: left;
+    padding-left: 20px;
+}
+.fakeimg1{
+    background-color: grey;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer{
+      background-color: rgb(208, 206, 206);
+      padding:20px;
+      text-align: center;
+      margin-top: 20px;
+
+}
+@media screen and (max-width: 800px) {
+    .col1,
+    .col2 {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
