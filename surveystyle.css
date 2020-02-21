@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+}
+#main{
+    padding-top:85px;
+    text-align:center;
+    background-image: url("https://i.pinimg.com/originals/39/66/8f/39668fbbdf458a422860cb068c0bfd13.png");
+    color: #282828;
+    padding-bottom: 85px;
+    font-family: "Arial";
+  }
+  #submit{
+    height:50px;
+    color: white;
+    background-color:coral;
+    font-size: 20px;
+    font-family: "arial";
+    letter-spacing: 2px;
+    padding-bottom: 35px;
+    border: 4px solid coral;
+  }
+  .stil{
+    border:3px solid grey;
+    width:100%;
+    height: 40px;
+    border-radius: 15px;
+    padding:15px 20px;
+    font-size: 19px;
+    color: silver;
+  }
+  .still{
+    border:3px solid grey;
+    border-radius: 15px;
+    height: 40px;
+    width: 100%;
+     padding-left: 15px;
+    color: grey;
+    font-family: "arial";
+    font-size: 19px;
+  }
+  .input-checkbox{
+        display: inline-block;
+    }
+  #title{
+    color:#3F3C3C;
+    font-family: "Arial black";
+
+  }
+  #description{
+    color:#3F3C3C;
+    font-family: "Arial black";
+    padding-bottom: 25px;
+    font-size: 15px;
+  }
+  #survey-form{
+    background-color: silver;
+    opacity: 97%;
+    border: 6px solid silver;
+    border-radius: 20px;
+    text-align: left;
+    padding: 70px 80px;
+    width: 70%;
+    margin:auto;
+    font-size: 25px;
+    font-family: "arial";
+    
+  }
+  textarea{
+    width: 100%;
+    height: 130px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+  #submit:hover{
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
